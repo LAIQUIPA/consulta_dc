@@ -1,0 +1,4 @@
+#Mon Dec 18 20:59:34 PET 2023
+base.0=C\:\\Users\\LUIS\\Documents\\Flutter Projects\\itse_validador\\build\\app\\intermediates\\dex\\profile\\mergeDexProfile\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
