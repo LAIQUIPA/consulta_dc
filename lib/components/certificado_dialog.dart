@@ -31,6 +31,7 @@ Future<Object?> certificadoDialog(BuildContext context,
     pageBuilder: (context, _, __) => Center(
       child: Container(
         height: 580,
+        width: 400,
         margin: const EdgeInsets.symmetric(horizontal: 16),
         padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
         decoration: BoxDecoration(
@@ -75,7 +76,7 @@ Future<Object?> certificadoDialog(BuildContext context,
                     children: [
                       //certificado tipo
                       Text(
-                        "222CERTIFICADO DE INSPECCION TECNICA DE SEGURIDAD EN EDIFICACIONES",
+                        "CERTIFICADO DE INSPECCION TECNICA DE SEGURIDAD EN EDIFICACIONES",
                         textAlign: TextAlign.center,
                         style: GoogleFonts.poppins(
                             fontSize: 14, fontWeight: FontWeight.bold),
