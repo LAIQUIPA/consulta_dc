@@ -75,7 +75,7 @@ Future<Object?> certificadoDialog(BuildContext context,
                     children: [
                       //certificado tipo
                       Text(
-                        "CERTIFICADO DE INSPECCION TECNICA DE SEGURIDAD EN EDIFICACIONES",
+                        "222CERTIFICADO DE INSPECCION TECNICA DE SEGURIDAD EN EDIFICACIONES",
                         textAlign: TextAlign.center,
                         style: GoogleFonts.poppins(
                             fontSize: 14, fontWeight: FontWeight.bold),
