@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\Users\LUIS\AppData\Local\Pub\Cache\hosted\pub.dev\rive_common-0.2.8\android\.cxx\RelWithDebInfo\543c2y2a\x86_64'
-ninja: no work to do.
