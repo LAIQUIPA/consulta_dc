@@ -1,7 +1,7 @@
 //import 'dart:ffi';
 
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 //import 'package:flutter_svg/flutter_svg.dart';
 
@@ -31,7 +31,7 @@ Future<Object?> certificadoDialog(BuildContext context,
     pageBuilder: (context, _, __) => Center(
       child: Container(
         height: 580,
-        width: 400,
+        //width: 400,
         margin: const EdgeInsets.symmetric(horizontal: 16),
         padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
         decoration: BoxDecoration(
@@ -78,8 +78,8 @@ Future<Object?> certificadoDialog(BuildContext context,
                       Text(
                         "CERTIFICADO DE INSPECCION TECNICA DE SEGURIDAD EN EDIFICACIONES",
                         textAlign: TextAlign.center,
-                        style: GoogleFonts.poppins(
-                            fontSize: 14, fontWeight: FontWeight.bold),
+                        /*style: GoogleFonts.poppins(
+                            fontSize: 14, fontWeight: FontWeight.bold),*/
                       ),
                       //Numero de certificado
                       Center(
@@ -87,8 +87,8 @@ Future<Object?> certificadoDialog(BuildContext context,
                           //"N° ${dataList[31].toString()}-${ObtenerYear(dataList[32])}",
                           'N° ${dataList[0]} - ${ObtenerYear(dataList[7])}',
                           textAlign: TextAlign.center,
-                          style: GoogleFonts.poppins(
-                              fontSize: 20, fontWeight: FontWeight.bold),
+                          /*style: GoogleFonts.poppins(
+                              fontSize: 20, fontWeight: FontWeight.bold),*/
                         ),
                       ),
                       const Row(
@@ -117,13 +117,13 @@ Future<Object?> certificadoDialog(BuildContext context,
                             Text(
                               '"${dataList[1]}"',
                               textAlign: TextAlign.center,
-                              style: GoogleFonts.poppins(
-                                  fontSize: 24, fontWeight: FontWeight.bold),
+                              /*style: GoogleFonts.poppins(
+                                  fontSize: 24, fontWeight: FontWeight.bold),*/
                             ),
                             Text(
                               '(Nombre Comercial)',
-                              style: GoogleFonts.poppins(
-                                  fontSize: 7, fontStyle: FontStyle.italic),
+                              /*style: GoogleFonts.poppins(
+                                  fontSize: 7, fontStyle: FontStyle.italic),*/
                             ),
                           ],
                         ),
@@ -228,11 +228,11 @@ class FilaFormato extends StatelessWidget {
       children: [
         Text(
           textoprevio,
-          style: GoogleFonts.poppins(fontSize: 14),
+          /*style: GoogleFonts.poppins(fontSize: 14),*/
         ),
         Text(
           certDatos,
-          style: GoogleFonts.poppins(fontSize: 14, fontWeight: FontWeight.bold),
+          /*style: GoogleFonts.poppins(fontSize: 14, fontWeight: FontWeight.bold),*/
         ),
       ],
     );
