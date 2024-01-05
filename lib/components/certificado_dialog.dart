@@ -32,7 +32,7 @@ Future<Object?> certificadoDialog(BuildContext context,
     pageBuilder: (context, _, __) => Center(
       child: Container(
         height: 580,
-        //width: 400,
+        width: 400,
         margin: const EdgeInsets.symmetric(horizontal: 16),
         padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
         decoration: BoxDecoration(
