@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:itse_validador/api/gsheets..dart';
 //import 'package:itse_validador/components/certificado_dialog.dart';
 import 'package:rive/rive.dart';
@@ -236,18 +236,18 @@ class _MainPageState extends State<MainPage> {
                   Text(
                     'GERENCIA DE DESARROLLO TERRITORIAL',
                     textAlign: TextAlign.center,
-                    /*style: GoogleFonts.poppins(
+                    style: GoogleFonts.poppins(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 16),*/
+                        fontSize: 16),
                   ),
                   Text(
                     'SUBGERENCIA DE GESTION DEL RIESGO\nDESASTRES',
                     textAlign: TextAlign.center,
-                    /*style: GoogleFonts.poppins(
+                    style: GoogleFonts.poppins(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 14),*/
+                        fontSize: 14),
                   ),
                   const Divider(height: 5, thickness: 2, color: Colors.black),
                   Row(
