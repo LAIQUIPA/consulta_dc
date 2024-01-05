@@ -29,6 +29,7 @@ class Gsheets {
   //AL INICIALIZAR
   Future initSheets() async {
     _ss = await _gsheets.spreadsheet(_spreadsheetId);
+    print('sheets iniciado');
   }
 
   //Obtener datos de la fila exp del txtfield
