@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:itse_validador/api/gsheets..dart';
 //import 'package:itse_validador/components/certificado_dialog.dart';
 import 'package:rive/rive.dart';
+//test
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
